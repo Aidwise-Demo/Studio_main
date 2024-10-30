@@ -14,7 +14,9 @@ const Navbar = () => {
           className="w-7 h-7  transition rounded-full text-zinc-600 cursor-pointer"
           onClick={onOpen}
         />
-        <img src={logo} alt="Logo" className="w-100 h-100 object-contain" />
+        {/* <img src={logo} alt="Logo" className="w-20 h-20 object-contain" /> */}
+        <img src={logo} alt="Logo" className="object-contain" style={{ width: "100px", height: "auto" }} />
+
       </div>
     </div>
   );
