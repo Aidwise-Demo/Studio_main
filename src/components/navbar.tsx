@@ -14,7 +14,7 @@ const Navbar = () => {
           className="w-7 h-7  transition rounded-full text-zinc-600 cursor-pointer"
           onClick={onOpen}
         />
-        <img src={logo} alt="Logo" className="w-10 h-10 object-contain" />
+        <img src={logo} alt="Logo" className="w-100 h-100 object-contain" />
       </div>
     </div>
   );
