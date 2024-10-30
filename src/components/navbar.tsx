@@ -2,7 +2,7 @@
 import { useContext } from "react";
 import { Menu } from "lucide-react";
 import { SideBarContext } from "../context/SidebarContext";
-import logo from "../../src/assets/logo.jpeg";
+import logo from "../../src/assets/Aidwise Logo_WhiteBG.png";
 
 const Navbar = () => {
   const { onOpen } = useContext(SideBarContext);
