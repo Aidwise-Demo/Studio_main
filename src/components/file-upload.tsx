@@ -18,7 +18,8 @@ const FileUpload: React.FC<FileUploadProps> = ({
   const [file, setFile] = useState<File | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   // const [fileType, setfileType] = useState(second)
-  const BASE_URL = "http://localhost:8000";
+  // const BASE_URL = "http://localhost:8000";
+  const BASE_URL = "https://disease-predictor-backend-bbbv.onrender.com";
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     if (!event.target.files) {
