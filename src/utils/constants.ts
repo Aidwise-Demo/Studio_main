@@ -12,7 +12,9 @@ export const giveBase64Src = (byteString: string) => {
   return `data:image/png;base64,${byteString}`;
 };
 
-export const BASE_URL = "http://127.0.0.1:8000";
+// export const BASE_URL = "http://127.0.0.1:8000";
+export const BASE_URL = "https://disease-predictor-backend-bbbv.onrender.com";
+
 
 export const sexOptions = [
   {
