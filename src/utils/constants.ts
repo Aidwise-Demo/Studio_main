@@ -13,7 +13,7 @@ export const giveBase64Src = (byteString: string) => {
 };
 
 // export const BASE_URL = "http://127.0.0.1:8000";
-export const BASE_URL = "https://disease-predictor-backend-bbbv.onrender.com";
+export const BASE_URL = "http://193.203.160.132:42002";
 
 
 export const sexOptions = [
